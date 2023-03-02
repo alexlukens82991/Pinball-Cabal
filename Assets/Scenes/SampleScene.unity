@@ -342,7 +342,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1dbf0cbf217a22b44b931436b9e1f83b,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1dbf0cbf217a22b44b931436b9e1f83b,
         type: 3}
@@ -1552,7 +1552,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: cbefccfdd7ac7514992563b338c04667,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.252
+      value: -0.279
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cbefccfdd7ac7514992563b338c04667,
         type: 3}
@@ -1781,7 +1781,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b127d563b88c9c47a6d27d4f8922e93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurveObjText: {fileID: 4900000, guid: 93c2f2e71f629654098ddb7a760a4f3e, type: 3}
+  CurveObjTextPath: 
   GeneratedSpline: {fileID: 2135934699}
   SplineVectors:
   - {x: -2.364011, y: -0.068519, z: 0.968262}
@@ -1981,7 +1981,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1dbf0cbf217a22b44b931436b9e1f83b,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1dbf0cbf217a22b44b931436b9e1f83b,
         type: 3}
@@ -4440,7 +4440,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 2
+  m_CollisionDetection: 3
 --- !u!4 &6388054598055923161
 Transform:
   m_ObjectHideFlags: 0
@@ -4695,4 +4695,4 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 2
+  m_CollisionDetection: 3

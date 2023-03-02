@@ -1,20 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.Splines;
 
 public class CurveObjToSpline : MonoBehaviour
 {
-    public TextAsset CurveObjText;
+    public string CurveObjTextPath;
     public SplineContainer GeneratedSpline;
     public List<Vector3> SplineVectors = new();
 
     public void UpdateSpline()
     {
         SplineVectors.Clear();
-        StreamReader reader = new StreamReader(AssetDatabase.GetAssetPath(CurveObjText));
+        StreamReader reader = new StreamReader(CurveObjTextPath);
         char currentLineFirstChar = ' ';
         string currLine = "";
 
